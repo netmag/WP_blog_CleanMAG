@@ -1,0 +1,361 @@
+/* Theme Name: CleanMag  */
+/* Theme URI: https://netmag.000webhostapp.com/  */
+/* Description: Моя первая тема  */
+/* Author: Алексей  */
+/* Author URI: https://netmag.000webhostapp.com/  */
+/* Version: 1.0 */
+
+
+*
+  margin: 0
+  padding: 0
+
+img
+  border: 0
+
+body
+  font-family: Arial, Helvetica, sans-serif
+  font-size: 62.5%
+
+ul
+  list-style: none
+
+a
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+.header-wrapper, .nav-wrapper
+  width: 100%
+
+.header
+  width: 985px
+  margin: 0 auto
+  overflow: hidden
+  .header-logo
+    float: left
+    margin-top: 41px
+  .header-banner
+    float: right
+    padding: 13px 0 12px 0
+
+.nav-wrapper
+  background: linear-gradient(0deg, #b5b5b5, #ffffff)
+  .menu-main
+    width: 985px
+    margin: 0 auto
+    overflow: hidden
+    .menu
+      float: left
+      li
+        float: left
+        a
+          color: #373737
+          font-size: 1.3em
+          font-weight: 400
+          text-align: left
+          padding: 10px 0px 8px 0px
+          margin-right: 20px
+          display: inline-block
+    .menu-social
+      float: right
+      li
+        float: right
+        padding: 0 0 0 10px
+.main-wrapper
+  width: 100%
+  margin-top: 25px
+.main
+  width: 955px
+  padding: 0 15px
+  margin: 0 auto
+  margin-bottom: 62px
+  overflow: hidden
+  &-content
+    width: 614px
+    float: left
+  hr
+    opacity: .5
+  .sidebar
+    width: 300px
+    float: right
+    .sidebar__widget
+      display: flex
+      flex-wrap: wrap
+      h3
+        display: block
+        width: 100%
+        color: #01b3bf
+        font-size: 2em
+        font-weight: 700
+        text-align: left
+        text-transform: uppercase
+        line-height: 1.4
+        border-bottom: 7px solid #e6e6e6
+      .entry-title
+        color: #535353
+        font-size: 1.3em
+        font-weight: 400
+        padding-top: 12px
+        text-align: left
+        border-bottom: none
+      .widget__search
+        border: 5px solid #e6e6e6
+        justify-content: space-around
+        overflow: hidden
+        input
+          float: left
+        .search-txt
+          height: 30px
+          width: 252px
+          border: none
+          color: #535353
+          font-size: 2em
+          font-weight: 400
+          text-align: left
+          padding-left: 5px
+        .search-btn
+          padding-top: 3px
+.advanced-posts-widget .entry-header
+  margin-bottom: 0
+  zoom: 0
+  height: 40px
+.apw-posts-list
+  margin-top: 5px
+  .apw-type-post
+    margin: 0
+    padding: 2px 0
+.widget_img
+  background-color: #e6e6e6
+  margin-top: 28px
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  padding: 4px 8px
+  a
+    padding: 8px
+.widget_categories, .widget_apw_recent_posts
+  margin-top: 30px
+  justify-content: space-between
+  .apw-recent-posts
+    width: 100%
+  a
+    width: 130px
+    color: #535353
+    font-size: 1.3em
+    font-weight: 400
+    line-height: 2.3
+    text-align: left
+
+.widget_categories ul li
+  float: left
+  width: 50%
+.post
+  margin: 9px 0
+  display: block
+  width: 100%
+  img
+    border: 5px solid #e6e6e6
+    margin-right: 15px
+    vertical-align: middle
+  a
+    color:  #535353
+    font-size: 1em
+    font-weight: 400
+    line-height: 0
+    text-align: left
+
+.widget_facebook
+  margin-top: 24px
+
+.features
+  position: relative
+#ft-prev-slideshowHolder, #ft-next-slideshowHolder
+  display: none
+#slideshowHolder
+  border-bottom: 10px solid #f3f3f3
+  border-right: 10px solid #f3f3f3
+#ft-buttons-slideshowHolder
+  position: relative
+  top: -45px
+  font-size: 12px
+.ft-button-slideshowHolder
+  background: #eb4900
+  color: #fff
+  margin: 0 5px
+.ft-button-slideshowHolder-active
+  background: #e6e6e6
+  color: #373737
+
+.main-content__article
+  overflow: hidden
+  margin: 26px 0 25px 1px
+  .article-img
+    float: left
+    margin-right: 18px
+  .article-header
+    width: 390px
+    float: left
+    &_page
+      width: 100%
+      margin-bottom: 15px
+    &__txt
+      color: #868686
+      font-size: 1.1em
+      font-weight: 400
+      text-align: left
+      .txt--orange
+        color: #eb4900
+        padding-left: 6px
+        a
+          color: #eb4900
+    .right
+      float: right
+  .article-capture
+    color: #373737
+    font-size: 2em
+    font-weight: 700
+    text-align: left
+    float: left
+    padding: 10px 0
+    &_page
+      float: none
+      padding: 16px 0
+  .article-txt
+    float: left
+    color: #373737
+    font-size: 1.3em
+    font-weight: 400
+    text-align: left
+    width: 390px
+    &_page
+      width: 100%
+      float: none
+      margin-bottom: 20px
+      font-size: 1.4em
+  .article-footer
+    float: left
+    font-size: 1.3em
+    font-weight: 400
+    text-align: left
+    a
+      color: #eb4900
+.pagination
+  margin: 0 auto
+  width: 341px
+  overflow: hidden
+  &_page
+    margin-top: 20px
+    margin-bottom: 20px
+    font-size: 1.5em
+    display: flex
+    justify-content: space-around
+    a:hover
+      color: #eb4900
+      text-decoration: none
+  ul, ol
+    display: flex
+    justify-content: space-between
+    width: 100%
+    li
+      float: left
+      color:  #868686
+      font-size: 3.5em
+      font-weight: 700
+      text-align: left
+      a
+        background: none
+        border: none
+      &:hover a
+        color: #eb4900
+        text-decoration: none
+
+.comment-respond
+  border-top: 1px solid #c7c7c7
+.comment-reply-title, #comments
+  font-size: 2em
+  margin: 10px 0
+#comments
+  font-size: 1.4em
+.comment-body p
+  font-size: 1.6em
+  margin: 10px 0 10px 0
+.comment-notes
+  margin: 15px 0 10px 0
+.comment-form-comment
+  margin-bottom: 15px
+  label
+    display: block
+    font-size: 1.5em
+    margin-bottom: 5px
+.comment-form-author, .comment-form-email, .comment-form-url
+  margin-bottom: 15px
+  label
+    display: block
+    font-size: 1.4em
+    margin-bottom: 5px
+    width: 55px
+    float: left
+  input
+    width: 278px
+.commentlist
+  padding-bottom: 10px
+.children
+  margin: 15px
+.footer-wrapper
+  width: 100%
+  background-color: #BFBFBF
+  overflow: hidden
+  .footer
+    width: 985px
+    margin: 0 auto
+    overflow: hidden
+    display: flex
+    justify-content: space-between
+    &__blocks
+      width: 294px
+      margin-bottom: 34px
+    &__txt, .menu
+      color: #373737
+      font-size: 1.3em
+      font-weight: 400
+      line-height: 1.846
+      text-align: left
+      a
+        color: #373737
+      .contact
+        color: #eb4900
+    &__capture
+      color: #01b3bf
+      font-size: 2em
+      font-weight: 700
+      text-align: left
+      text-transform: uppercase
+      margin: 39px 0 25px 0
+.footer__bottom
+  width: 985px
+  margin: 0 auto
+  overflow: hidden
+  .bottom_txt
+    color:  #373737
+    font-size: 1.2em
+    font-weight: 400
+    line-height: 3
+    text-align: left
+    &--left
+      float: left
+    &--right
+      float: right
+      margin-left: 53px
+    .orange
+      color: #eb4900
+
+::-webkit-input-placeholder
+  color: #535353
+  opacity: .5
+::-moz-placeholder
+  color: #535353
+  opacity: .5
+::-ms-input-placeholder
+  color: #535353
+  opacity: .5
